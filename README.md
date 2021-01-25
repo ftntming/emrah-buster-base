@@ -23,8 +23,8 @@ Usage
 Download the installer and run it with the template name as an argument.
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb-base.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb-base.conf
 bash eb eb-base
 ```
 
