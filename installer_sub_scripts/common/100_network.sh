@@ -85,6 +85,7 @@ cp etc/dnsmasq.d/eb_hosts /etc/dnsmasq.d/
 cp etc/dnsmasq.d/eb_resolv /etc/dnsmasq.d/
 
 # /etc/network/interfaces
+mkdir -p /etc/network/interfaces.d
 [ -z "$(egrep '^source-directory\s*interfaces.d' /etc/network/interfaces || true)" ] && \
 [ -z "$(egrep '^source-directory\s*/etc/network/interfaces.d' /etc/network/interfaces || true)" ] && \
 [ -z "$(egrep '^source\s*interfaces.d/\*$' /etc/network/interfaces || true)" ] && \
