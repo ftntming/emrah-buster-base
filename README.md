@@ -34,7 +34,7 @@ Templates
 =========
 
 See the
-[emrah-buster-templates](https://github.com/emrahcom/emrah-buster-templates)
+[emrah-buster-templates](https://github.com/ftntming/emrah-buster-templates)
 repository for the available templates.
 
 ---

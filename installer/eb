@@ -16,7 +16,7 @@ export RELEASE="buster"
 
 export BASE_INSTALLER=eb-base
 export BASE_CONFIG="${BASE_INSTALLER}.conf"
-export BASE_REPO="https://github.com/emrahcom/emrah-buster-base.git"
+export BASE_REPO="https://github.com/ftntming/emrah-buster-base.git"
 export BASE_BRANCH="master"
 export BASE_TMP_DIR="eb_base_tmp"
 
