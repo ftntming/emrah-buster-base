@@ -75,6 +75,7 @@ apt-get -y remove iptables
 
 # added packages
 apt-get $APT_PROXY_OPTION -y install nftables lxc lxc-utils
+apt-get -y lxc lxc-utils
 
 # -----------------------------------------------------------------------------
 # NETWORK CONFIG

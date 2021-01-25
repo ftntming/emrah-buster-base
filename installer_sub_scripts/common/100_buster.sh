@@ -33,6 +33,10 @@ nft add element eb-nat tcp2port { $SSH_PORT : 22 }
 echo
 echo "-------------------------- $MACH --------------------------"
 
+apt-get -y lxc lxc-utils
+apt-get $APT_PROXY_OPTION -y lxc lxc-utils
+
+
 # -----------------------------------------------------------------------------
 # REINSTALL_IF_EXISTS
 # -----------------------------------------------------------------------------
