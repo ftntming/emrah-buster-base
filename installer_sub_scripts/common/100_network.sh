@@ -74,7 +74,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get -y remove iptables
 
 # added packages
-apt-get $APT_PROXY_OPTION -y install nftables
+apt-get $APT_PROXY_OPTION -y install nftables lxc lxc-utils
 
 # -----------------------------------------------------------------------------
 # NETWORK CONFIG
