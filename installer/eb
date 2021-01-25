@@ -110,7 +110,7 @@ trap on_exit EXIT
 # BASE PACKAGES
 # -----------------------------------------------------------------------------
 apt-get $APT_PROXY_OPTION update
-apt-get $APT_PROXY_OPTION -y install wget rsync
+apt-get $APT_PROXY_OPTION -y install wget rsync ack-grep
 apt-get $APT_PROXY_OPTION -y install git
 
 # -----------------------------------------------------------------------------
